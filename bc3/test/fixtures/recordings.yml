@@ -1,0 +1,49 @@
+to_done_todo:
+
+launch_qa_todolist:
+
+qa_todo:
+
+empty_todolist:
+
+copied_todolist:
+
+meeting_notes_google_document:
+
+planning_document:
+
+product_video_upload:
+
+draft_logo_1_upload:
+
+draft_logo_2_upload:
+
+meeting_notes_vault:
+
+introduction_document:
+  bucket: anniversary
+  recordable: introduction (Document)
+  creator: 37s_david
+  parent: anniversary_vault
+
+tweet_embed:
+  bucket: anniversary
+  recordable: tweet (Embed)
+  creator: 37s_david
+  parent: introduction_document
+
+meeting_notes_document:
+  bucket: anniversary
+  recordable: meeting_notes (Document)
+  creator: 37s_david
+  parent: meeting_notes_vault
+
+anniversary_chat_line_hello:
+
+anniversary_chat_line_goodbye:
+
+anniversary_chat_line_morning:
+
+anniversary_chat_line_quote:
+
+design_review_schedule_entry:
