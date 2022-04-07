@@ -6,8 +6,8 @@ This repository is heavily inspired by [virolea/on_writing_software_well](https:
 
 The repo contains two main directories:
 
-1. `bc3`: Only files that were discussed in the episodes.
-2. `bc3_with_stub_files`:  The contents of `bc3` plus empty files where they were visible in the TextMate File Browser. This helps to build a better picture of the overall architecture of the application.
+1. [`bc3`](./bc3): Only files that were discussed in the episodes.
+2. [`bc3_with_stub_files`](./bc3_with_stub_files):  The contents of `bc3` plus empty files where they were visible in the TextMate File Browser. This helps to build a better picture of the overall architecture of the application.
 
 The intention of this repository is to be able to more easily read the code presented in the episodes without needing to remember exactly which episode a given file was discussed, and also to learn from the domain language and architecture revealed through the stub files.
 
