@@ -14,7 +14,7 @@ module Recording:: Eventable
 
   def track_event(action, recordable previous: nil, **particulars)
     Event.create! \
-      recording: self, recordable: recordable, recordable previous: recordable previous,
+      recording: self, recordable: recordable, recordable_previous: recordable_previous,
       bucket: bucket, creator: Current.person, action: action,
       detail: Event::Detail.new(particulars)
   end
