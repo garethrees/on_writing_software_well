@@ -1,13 +1,13 @@
-module Recording:: Eventable
-  extend ActiveSupport:: Concern
+module Recording::Eventable
+  extend ActiveSupport::Concern
 
-  PUBLICATION ACTIONS = %w( active created )
+  PUBLICATION_ACTIONS = %w( active created )
   UPDATE_ACTIONS = %w( blob_changed )
 
   included do
     has_many :events, dependent: :destroy
 
-    after create :track_created
+    after_create :track_created
     after_update :track_updated
     after_update_commit :forget_adoption_tracking, :forget_events
   end
